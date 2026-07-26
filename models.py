@@ -28,4 +28,4 @@ class Job(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
 # This creates the "jobs" table in your database if it doesn't exist yet
-Base.metadata.create_all(engine)
+Base.metadata.create_all(engine)d
